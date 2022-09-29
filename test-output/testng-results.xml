@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T06:15:13 EET" name="Default suite" finished-at="2022-09-29T06:15:14 EET" duration-ms="1302">
+    <groups>
+    </groups>
+    <test started-at="2022-09-29T06:15:13 EET" name="Default test" finished-at="2022-09-29T06:15:14 EET" duration-ms="1302">
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.AddToCartTest@235834f2]" started-at="2022-09-29T06:15:06 EET" name="startDriver" finished-at="2022-09-29T06:15:13 EET" duration-ms="6440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCard()[pri:1, instance:tests.AddToCartTest@235834f2]" started-at="2022-09-29T06:15:13 EET" name="addToCard" finished-at="2022-09-29T06:15:14 EET" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCard -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.AddToCartTest@235834f2]" started-at="2022-09-29T06:15:14 EET" name="closeDriver" finished-at="2022-09-29T06:15:15 EET" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.OrderConfirmationValidation">
+        <test-method signature="urlCheck()[pri:1, instance:tests.OrderConfirmationValidation@4802796d]" started-at="2022-09-29T06:15:14 EET" name="urlCheck" finished-at="2022-09-29T06:15:14 EET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method signature="orderConfirmationMessage()[pri:2, instance:tests.OrderConfirmationValidation@4802796d]" started-at="2022-09-29T06:15:14 EET" name="orderConfirmationMessage" finished-at="2022-09-29T06:15:14 EET" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmationMessage -->
+      </class> <!-- tests.OrderConfirmationValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
